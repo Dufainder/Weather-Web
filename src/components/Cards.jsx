@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+import Card from './Card/index';
 import"./StyleCards.css";
 
 export default function Cards({cities, onRemov}) {
@@ -7,7 +7,7 @@ export default function Cards({cities, onRemov}) {
   // tip, podés usar un map
   return (
     <div className="ContCards">
-      {cities.map((ciudad)=><Card 
+      {cities.map((ciudad)  =>  <Card 
       key={ciudad.id}
       id={ciudad.id}
       name={ciudad.name}

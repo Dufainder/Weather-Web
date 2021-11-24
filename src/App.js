@@ -1,10 +1,11 @@
 import React,{useState} from 'react';
 import './App.css';
 import Cards from './components/Cards.jsx';
-import Nav from './components/Nav';
 import { Route,Routes } from 'react-router-dom';
-import About from './components/About';
-import Ciudad from './components/Ciudad';
+import Contact from './components/pages/Contact';
+import About from './components/pages/About';
+import Ciudad from './components/pages/Ciudad';
+import Navbar from './components/Navbar';
 
 
 // const API_KEY = process.env.REACT_APP_API_KEY
@@ -55,11 +56,14 @@ function onSearch (ciudad){
 
   return (
     <div className="App">
-      <Nav onSearch={onSearch} /> 
-    
+
+      <Navbar onSearch={onSearch}/>
+      
       <Routes>
         <Route path="/"  element={<Cards cities={cities} onRemov={removCity}/>}/>
         <Route path="/about" element={<About/>}/>
+
+        <Route path='/contact' element={<Contact/>}/>
         <Route path='/ciudad/:ciudadId'
            element={<Ciudad cities={cities}/>}
        />

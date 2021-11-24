@@ -32,7 +32,7 @@ const Navbar = ({onSearch}) => {
                         <NavLinks to='/about'>About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='/contact'>Contacto</NavLinks>
+                        <NavLinks to='/contact'>Contact</NavLinks>
                     </NavItem>                   
                 </NavMenu>
 
