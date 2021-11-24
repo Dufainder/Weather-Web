@@ -1,0 +1,83 @@
+
+.StyleCard{
+    background-image: url("./fondocard2.jpg");
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin-bottom:10px ;
+    width: 20%;
+    height: 11%;
+    padding-bottom: 10px;
+    
+    
+}
+.DivButonx{
+    padding: 40px;
+    padding-top: 0%;
+    margin-top: 2px;
+}
+
+.BotonxCard{
+    margin-left: 100%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.ConteMaxMin{
+
+    display: flex;
+    gap: 10px;
+    width: 20%;
+    /* justify-content: center; PIROBO HPTTAAAAA AQUI ESTA LA RAZON POR LA CUAL NO SE CENTRABAN LAS FLECHAS*/
+    
+   
+}
+
+.NamCity{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color:black;
+    font-size: 20px;
+    text-shadow: -2px -2px 2px #1a6fa8, 2px -2px 2px #cdcde7, -2px 2px 2px #0000DF, 2px 2px 2px #0000DF;
+    -webkit-text-stroke: 0.3px black; 
+}
+
+.ColorMin{
+    color: rgb(17, 0, 255);
+    position: fixed
+  
+  
+   
+}
+
+.ColorMax{
+    color: rgb(243, 13, 13);
+    position: fixed
+    
+}
+.MaxMiN{
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px ; 
+    left: 100%;
+    font-size: 20px;
+    text-shadow: -2px -2px 2px #1a6fa8, 2px -2px 2px #cdcde7, -2px 2px 2px #0000DF, 2px 2px 2px #0000DF;
+    -webkit-text-stroke: 0.3px black;
+    /* margin-left: 20px; */
+    
+}
+
+/* #Tmin{
+    color:rgb(17, 0, 255);
+} */
+
+.ContTemp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    /* align-content: center; */ 
+}

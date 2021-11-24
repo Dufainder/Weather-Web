@@ -1,0 +1,23 @@
+.ciudad{
+    background: none;
+}
+.NameCity{
+    color: rgb(17, 204, 188);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    padding:10px ; 
+    left: 100%;
+    font-size: 60px;
+    text-shadow: -2px -2px 2px #1a6fa8, 2px -2px 2px #cdcde7, -2px 2px 2px #0000DF, 2px 2px 2px #0000DF;
+    -webkit-text-stroke: 0.3px black; 
+}
+.info{
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px ; 
+    left: 100%;
+    font-size: 30px;
+    text-shadow: -2px -2px 2px #1a6fa8, 2px -2px 2px #cdcde7, -2px 2px 2px #0000DF, 2px 2px 2px #0000DF;
+    -webkit-text-stroke: 0.4px black;
+}
