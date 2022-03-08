@@ -61,7 +61,7 @@ export const TempContainer = styled.div`
 
 export const TempMaxNumber = styled.span`
     
-    color: snow;
+    color: cyan;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding:10px ; 
     left: 100%;
@@ -72,7 +72,7 @@ export const TempMaxNumber = styled.span`
 
 export const TempMinNumber = styled.span`
     
-    color: snow;
+    color: cyan;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding:10px ; 
     left: 100%;

@@ -20,9 +20,9 @@ import React from 'react'
 // }
 
 export const Nav = styled.nav`
-  background: #2193b0;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #32345D ;  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #434BD3, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #434BD3, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   height: 80px;
   display: flex;
@@ -71,13 +71,13 @@ export const NavLogo = styled(LinkR)`
  color:snow;
  font-family: 'Comforter', cursive;
  text-shadow: -2px -2px 2px #1a6fa8, 3px -3px 3px #1a6fa8, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
- /* -webkit-text-stroke: 0.05px white;   */
  justify-self: flex-start;
  cursor: pointer;
- font-size: 3.2rem;
+ font-size: 3rem;
  display: flex;
  align-items:center;
  margin-left: 12px;
+ margin-top: 10px;
  font-weight: bold;
  text-decoration: none;
    :hover{
@@ -120,6 +120,7 @@ export const NavLinks = styled(LinkR)`
       align-items: center;
       text-decoration: none;
       padding: 0;
+      margin-right: 10px;
       height: 100%;
       cursor: pointer;
       border-bottom-width: thin;
@@ -127,9 +128,9 @@ export const NavLinks = styled(LinkR)`
 
       :hover {
           border-bottom-width: thin; 
-          border-bottom: 3px solid #27157F; 
+          border-bottom: 3px solid cyan; 
           transition: 0.1s all ease;
-          color: #27157F;
+          color: cyan;
       }
 `;
 
