@@ -28,7 +28,7 @@ function removCity(cityID){
 
 function onSearch (ciudad){
 
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=5bfb04510edccac085eb222bca475288&units=metric`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=5bfb04510edccac085eb222bca475288&units=metric`)
   .then(r => r.json())
   .then((recurso) => {
     if(recurso.main !== undefined){
